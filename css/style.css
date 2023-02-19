@@ -871,7 +871,7 @@ border: none;
     align-items: center;
 }
 .perfeum-img{
-    max-width: 336px;
+    max-width: 356px;
     height: 335px;
 }
 .description{
@@ -911,9 +911,6 @@ span{
 .contact-info{
   margin: 1rem auto;
   font-size: 32px;
-}
-.topnav{
-    padding:10px;
 }
 .topnav a{
     font-size: 19px;

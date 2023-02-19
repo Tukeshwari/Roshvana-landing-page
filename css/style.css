@@ -894,11 +894,11 @@ border: none;
     padding: 3px;
 }
 p{
-    font-size: 20px;
+    font-size: 23px;
     line-height: 35px;
 }
 span{
-    font-size: 16px;
+    font-size: 18px;
 }
 .social-icons{  
     gap:10px;
@@ -907,12 +907,12 @@ span{
 }
 
 .follow-us{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .contact-info{
   margin: 1rem auto;
-  font-size: 32px;
+  font-size: 36px;
 }
 .topnav a{
     font-size: 19px;

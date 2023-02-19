@@ -709,7 +709,6 @@ top:150px;
         width: 100vw;
         height: 100%;
         padding: 0%;
-        background-color: #04AA6D;
     }
 .description{
     /* max-width: 1000px; */
@@ -912,5 +911,11 @@ span{
 .contact-info{
   margin: 1rem auto;
   font-size: 32px;
+}
+.topnav{
+    padding:10px;
+}
+.topnav a{
+    font-size: 19px;
 }
 }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Roshvava landing page</title>
+</head>
+<body>
+<!-- Nav bar code -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" target="_blank">Home</a>
+  <a href="#about us" target="_blank">About us</a>
+  <a href="#blog" target="_blank">Blog</a>
+  <img src="images/roshvana logo 1.png" class="logo" alt="roshvana logo">
+  <a href="#shop" target="_blank">Shop</a>
+  <a href="#contact us" target="_blank">Contact us</a>
+  <a href="#" target="_blank"><img src="images/cart icon.png" alt="cart-icon" class="cart-icon"></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i> </a>
+</div>
+
+<div class="container">
+  <div class="grid1">
+      <div class="description">
+          <h2 class="contact-info">Contact Info</h2>
+          <p>Phone Number: <span>+12-xxxxxxxxxx</span></p>
+          <p>E Mail ID: <span>XYZ</span></p>
+          <p>Address:<br></p>
+          <span>sed do euismod tempor<br>
+          incididunt ut  labore at dolore<br>
+          magna aliqua</span>
+          <div class="social-icons">
+              <h2 class="follow-us">FOLLOW US</h2>
+              <div class="icons">
+                  <img src="images/call icon.png" alt="call-icon" class="icon1 main">
+                  <img src="images/insta icon.png" alt="insta-icon" class="icon1 main">
+                  <img src="images/mail icon.png" alt="mail-icon" class="icon1 main">
+                  <img src="images/facebook icon.png" alt="fb-icon" class="icon1 main">
+              </div>
+          </div>
+      </div>
+      <div class="image">
+          <img src="images/perfeum img.png" alt="perfume image" class="perfeum-img">  
+      </div> 
+  </div>
+  <hr>
+
+  <div class="grid2"> 
+    <div class="form-info">
+        <form  method="post" action="#">
+        <fieldset>
+            <legend>Send us a message</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="off" required>
+            <label for="email">E mail Id</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="phone-number"  pattern="[0-9]{10}"  title="Ten digits code" autocomplete="off" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+    </div>
+    <div class="map-image">
+        <img src="images/map image.png" alt="map image" class="map-img">
+    </div>
+  </div>
+
+  <div class="grid3">
+
+    <div class="roshvana-details">
+        <img src="images/roshvana logo 2.png" alt="roshvana-img" class="roshvanalogo2">
+        <img src="images/Roshvana  text.png" alt="roshvana-text" class="roshvanatext">
+        <span class="des">Lorem ipsum dolor sit amet, consectetur</span>
+    </div>
+    
+    <div class="quick-links">
+        <h2 class="quick">Quick Links</h2>
+        <div class="section">
+        <div>
+            <ol class="col1">
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"> <span class="link"> Home</span></li>
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"><span class="link">Contact us</span></li>
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"> <span class="link">About us</span></li>
+            </ol>
+        </div>
+        <div>
+            <ol class="col2">
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"> <span class="link">Shop</span></li>
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"> <span class="link">Blog</span></li>
+                <li><img src="images/arrow.png" alt="arrow" class="arrow"><span class="link">My wishlist</span></li>
+            </ol>
+        </div>
+        </div> 
+    </div>
+    
+    
+    <div class="contact">
+        <h2>Contact</h2>
+        <ol>
+            <li><img src="images/call icon.png" alt="icon" class="footer-icon"> +12-xxxxxxxxxx </li>
+            <li><img src="images/mail icon.png" alt="icon" class="footer-icon"> @gmail.com</li>
+            <li><img src="images/facebook icon.png" alt="icon" class="footer-icon"> facebook.com </li>
+        </ol>
+    </div>
+    </div>
+
+<footer>
+  <span> <i class="fa-regular fa-copyright"></i> Powered by the digi jugad</span>
+  </footer>
+</div>
+<!-- Nav bar script -->
+<script>
+  function myFunction() {
+    var myTopnav  = document.getElementById("myTopnav");
+    var logo = document.getElementById("logo")
+    if (myTopnav.className === "topnav") {
+      myTopnav.className += " responsive";
+      // y.style.display = "none";
+      logo.style.padding = "0";
+    } else {
+      myTopnav.className = "topnav";
+      logo.style.display = "block";
+      
+    }
+  }
+  </script>
+</body>
+</html>

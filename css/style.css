@@ -878,7 +878,7 @@ border: none;
 }
 .description{
     max-width: 1000px;
-    width:80%;
+    width:90%;
     justify-content:flex-start;
     align-items:baseline;
     margin:1rem auto;
@@ -907,7 +907,7 @@ span{
 }
 
 .follow-us{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact-info{

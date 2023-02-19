@@ -576,7 +576,7 @@ width:100%
 }
 legend{
     text-align:center;
-    font-size: 19px;
+    font-size: 20px;
 } 
 label{
 font-size: 15px;
@@ -814,7 +814,7 @@ legend{
     text-align:center;
     font-family: Poppins;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
 } 
 input{
 background: transparent;
@@ -832,19 +832,21 @@ max-width: 150px;
 width: 100%;
 background-color: #FFFFFF;
 border-radius: 19px;
-padding: 9px;
-font-size: 15px;
+padding: 12px;
+font-size: 18px;
 text-transform: uppercase;
 font-weight: 600;
-margin: 10px auto;
+margin: 20px auto;
 }
 textarea{
 background-color: #000000;
 color: #FFFFFF;
 border: 1px solid white;
-width:100%
+width:100%;
+height:100%;
 }
 label {
+font-size: 20px;    
 display: block;
 margin-top: 14px;
 }
@@ -883,8 +885,8 @@ border: none;
 
 }
 .icon1{
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
 }
 
 .main{
@@ -893,7 +895,7 @@ border: none;
 }
 p{
     font-size: 20px;
-    line-height: 32px;
+    line-height: 35px;
 }
 span{
     font-size: 16px;
@@ -905,7 +907,7 @@ span{
 }
 
 .follow-us{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .contact-info{
@@ -942,7 +944,6 @@ text-align: center;
     top:50px;
     width:90%;
  }
-
 
 
 }

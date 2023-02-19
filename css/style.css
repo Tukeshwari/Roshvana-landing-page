@@ -492,22 +492,26 @@ margin-top:0;
 }
 .grid1{
         flex-direction: column;
-        width: 100vw;
-        height: 100%;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    
     }
 
     .image{
     width:100%;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
     object-fit: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 .perfeum-img{
     max-width: 336px;
-    height: 335px;
+    height: 329px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
 }
 .description{
     max-width: 1000px;
@@ -534,7 +538,7 @@ span{
     font-size: 16px;
 }
 .social-icons{  
-    gap:40px;
+    gap:10px;
     margin-top: 2rem;
     margin-right: 0.6rem;
 }
@@ -704,6 +708,8 @@ top:150px;
         flex-direction: column;
         width: 100vw;
         height: 100%;
+        padding: 0%;
+        background-color: #04AA6D;
     }
 .description{
     /* max-width: 1000px; */
@@ -716,10 +722,15 @@ top:150px;
 }
 .image{
   height: 50%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
 }
 .perfeum-img{
     max-width: 496px;
+    width: 100vw;
     height: 263px;
+    object-fit: cover;
 }
 .icon1{
     width: 25px;
@@ -843,4 +854,63 @@ border: none;
 }
 /* end grid2 max width 400px */
 
+}
+@media screen and (max-width: 400px){
+    .grid1{
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .image{
+    width:100%;
+    padding: 0;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfeum-img{
+    max-width: 336px;
+    height: 335px;
+}
+.description{
+    max-width: 1000px;
+    width:80%;
+    justify-content:flex-start;
+    align-items:baseline;
+    margin:1rem auto;
+
+}
+.icon1{
+    width: 32px;
+    height: 32px;
+}
+
+.main{
+    margin: 0 0;
+    padding: 3px;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+span{
+    font-size: 16px;
+}
+.social-icons{  
+    gap:10px;
+    margin-top: 2rem;
+    margin-right: 0.6rem;
+}
+
+.follow-us{
+    font-size: 14px;
+}
+
+.contact-info{
+  margin: 1rem auto;
+  font-size: 32px;
+}
 }

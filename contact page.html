@@ -25,6 +25,7 @@ p{
   margin: 0.2em auto;
   text-align: center;
   color:#ffffff;
+  font-weight: 500;
 }
 
 form {
@@ -72,18 +73,40 @@ background-color: #ffffff;
 color: #1b1b32;
 transition: 1s ease-in-out;
 }
+@media screen and (max-width:400px){
+    label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+input{
+  min-height: 3em;
+}
+textarea {
+   min-height: 5em;
+}
+}
     </style>
   </head>
   <body>
     <h1>Contact us</h1>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <p>Swing by for a cup of coffee, or leave us a message</p>
     <form method="post">
       <fieldset>
         <label for="first-name">Enter Your First Name<sup>*</sup><input id="first-name" name="first-name" type="text" required /></label>
         <label for="last-name">Enter Your Last Name<sup>*</sup><input id="last-name" name="last-name" type="text" required /></label>
         <label for="email">Enter Your Email<sup>*</sup><input id="email" name="email" type="email" required /></label>
         <label for="bio">Message:
-        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Write something..."></textarea>
+        <textarea id="bio" name="bio" rows="5" cols="30" placeholder="Write something..."></textarea>
         </label>
     </fieldset>
       <p id="demo1"></p>

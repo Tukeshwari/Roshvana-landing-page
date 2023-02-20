@@ -61,7 +61,7 @@ border-radius: 33px;
 background-color: #1a1919;
 color: #D09B49;
 border-radius: 33px;
-transition: 0.2s ease-in-out;
+transition: 1s ease-in-out;
 }
 .topnav a.active {
 background-color: #04AA6D;
@@ -473,7 +473,6 @@ border-radius: 0;
 color:#000000;
 background-color: #FFFFFF;
 font-weight: 800;
-transition:1.4s ease-in-out;
 }
 .topnav a.active {
 background-color: #04AA6D;

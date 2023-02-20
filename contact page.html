@@ -4,7 +4,7 @@
 <meta charset="utf-8">    
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Registration Form</title>
-<link rel="stylesheet" href="css/contact-us.css" />
+<link rel="stylesheet" href="css/contact-us.css"/>
 </head>
 <body>
     <h1>Contact us</h1>
@@ -26,16 +26,16 @@
     <script>
         function displayData() {
 			const firstname = document.getElementById("first-name").value;
-            const lastname = document.getElementById("last-name").value;
+      const lastname = document.getElementById("last-name").value;
 			const email = document.getElementById("email").value;
 			if (firstname && lastname && email) {
-                document.getElementById("myForm").reset();
+        document.getElementById("myForm").reset();
 				document.getElementById("demo1").innerHTML = "Thankyou!";
-                document.getElementById("demo2").innerHTML = "Your message has been successfully submitted";
-                setTimeout(() => {
-                demo1.innerHTML = "";
-                demo2.innerHTML = "";
-                }, 4000); // 4000 milliseconds = 4 seconds
+        document.getElementById("demo2").innerHTML = "Your message has been successfully submitted";
+        setTimeout(() => {
+            demo1.innerHTML = "";
+            demo2.innerHTML = "";
+        }, 4000); // 4000 milliseconds = 4 seconds
 			} else {
 				alert("Please fill in all fields");
 			}

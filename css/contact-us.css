@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
+    background-color: #000000;
     font-family: Tahoma;
     font-size: 16px;
   }
@@ -48,8 +48,8 @@ body {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
+    background-color: #171717;
+    border: 1px solid #000000;
     color: #ffffff;
   }
   
@@ -59,14 +59,15 @@ body {
     margin: 2px auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
+    background-color: #ffffff;
     border: none;
-    border-color: white;
+    border-color: #000000;
     min-width: 300px;
+    color: #000000;
   }
   input[type="button"]:hover{
   background-color:#D09B49;
-  color: #1b1b32;
+  color: #ffffff;
   cursor: pointer;
   }
   @media screen and (max-width:400px){
@@ -89,5 +90,11 @@ body {
   }
   textarea {
      min-height: 5em;
+  }
+  input[type="button"] {   
+    width: 20%;
+    height: 1.5em;
+    border-radius: 25px;
+    min-width: 200px;
   }
   }

@@ -90,7 +90,7 @@ body {
   }
   input[type="button"] {   
     width: 20%;
-    height: 1.5em;
+    height: 1rem;
     border-radius: 25px;
     min-width: 200px;
     font-size: 1.3rem;

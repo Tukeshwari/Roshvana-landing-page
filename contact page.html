@@ -32,6 +32,10 @@
                 document.getElementById("myForm").reset();
 				document.getElementById("demo1").innerHTML = "Thankyou!";
                 document.getElementById("demo2").innerHTML = "Your message has been successfully submitted";
+                setTimeout(() => {
+                demo1.innerHTML = "";
+                demo2.innerHTML = "";
+                }, 4000); // 4000 milliseconds = 4 seconds
 			} else {
 				alert("Please fill in all fields");
 			}

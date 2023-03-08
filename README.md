@@ -1,5 +1,6 @@
 # Roshvana-landing-page
-Deploy-link:-https://roshvana-landing-page-tukeshwari.netlify.app
+# Deploy-link:-
+https://roshvana-landing-page-tukeshwari.netlify.app
 # for desktop view 
 ![roshvava landing page](https://user-images.githubusercontent.com/102142382/223806381-3296ff28-71c7-469a-8f02-382e8a6e8959.jpeg)
 # contact page
